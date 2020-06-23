@@ -4,8 +4,8 @@ CREATE TABLE `users` (
       `password` varchar(100) NOT NULL,
       `user_name` varchar(100) NOT NULL,
       `profile` varchar(1000),
-      `phone number` varchar(13),
-      `cell number` varchar(13),
+      `phone_number` varchar(13),
+      `cell_number` varchar(13),
       `is_deleted` tinyint(1) NOT NULL DEFAULT 0,
       `created_at` datetime NOT NULL,
       `modified_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
