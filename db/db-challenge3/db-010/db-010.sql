@@ -13,4 +13,4 @@ FROM (
   JOIN chats ON posts.chat_id = chats.id
   JOIN users ON posts.create_member_id = users.id
 WHERE users.is_deleted = 0
-ORDER BY posts.chat_id
+ORDER BY posts.chat_id;
