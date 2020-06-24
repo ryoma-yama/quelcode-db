@@ -1,6 +1,15 @@
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    1,
     'りんご',
     '利用者の集まり',
     1,
@@ -11,9 +20,18 @@ VALUES (
     '2020/04/21 11:26:32',
     1
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    2,
     'ごりら',
     'sqlの集まり',
     1,
@@ -24,9 +42,18 @@ VALUES (
     '2020/04/23 15:42:05',
     2
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    3,
     'らっぱ',
     '言語の集まり',
     1,
@@ -37,9 +64,18 @@ VALUES (
     '2020/04/25 10:33:55',
     9
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    4,
     'ぱんだ',
     'フレームワークの集まり',
     0,
@@ -50,9 +86,18 @@ VALUES (
     '2020/04/24 20:33:06',
     7
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    5,
     'ごま',
     'adminとmysqlのダイレクトチャット',
     1,
@@ -63,9 +108,18 @@ VALUES (
     '2020/04/23 14:34:58',
     1
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    6,
     'まり',
     'adminとsqlserverのダイレクトチャット',
     0,
@@ -76,9 +130,18 @@ VALUES (
     '2020/04/23 14:45:22',
     1
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    7,
     'りす',
     'adminとjsのダイレクトチャット',
     1,
@@ -89,9 +152,18 @@ VALUES (
     '2020/04/24 10:55:21',
     1
   );
-INSERT INTO chats
+INSERT INTO chats (
+    chat_name,
+    chat_description,
+    is_file_permission,
+    is_direct_chat,
+    is_deleted,
+    created_at,
+    create_member_id,
+    modified_at,
+    modify_member_id
+  )
 VALUES (
-    8,
     'かめ',
     'adminとamazonのダイレクトチャット',
     1,
@@ -101,4 +173,4 @@ VALUES (
     1,
     '2020/04/27 15:41:33',
     1
-  )
+  );

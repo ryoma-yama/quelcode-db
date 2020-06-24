@@ -1,6 +1,15 @@
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    1,
     'admin@labot.inc',
     'admin',
     'admin',
@@ -11,9 +20,18 @@ VALUES (
     '2020/04/20 15:47:52',
     '2020/04/20 15:47:52'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    2,
     'mysql@labot.inc',
     'mysql55',
     'mysql',
@@ -24,9 +42,18 @@ VALUES (
     '2020/04/22 16:02:55',
     '2020/04/22 16:02:55'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    3,
     'sqlserver@labot.inc',
     'apple',
     'sqlserver',
@@ -37,9 +64,18 @@ VALUES (
     '2020/04/22 17:32:55',
     '2020/04/22 17:32:55'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    4,
     'mariadb@labot.inc',
     'maria',
     'mariadb',
@@ -50,9 +86,18 @@ VALUES (
     '2020/04/22 18:45:21',
     '2020/04/22 18:45:21'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    5,
     'laravel@labot.inc',
     'lara',
     'laravel',
@@ -63,9 +108,18 @@ VALUES (
     '2020/04/22 18:46:01',
     '2020/04/22 18:46:01'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    6,
     'cakephp@labot.inc',
     'cake89',
     'cake',
@@ -76,9 +130,18 @@ VALUES (
     '2020/04/23 02:51:06',
     '2020/04/25 11:45:06'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    7,
     'react@labot.inc',
     'node',
     'react',
@@ -89,9 +152,18 @@ VALUES (
     '2020/04/23 09:54:32',
     '2020/04/23 09:54:32'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    8,
     'html@labot.inc',
     'css3',
     'html5',
@@ -102,9 +174,18 @@ VALUES (
     '2020/04/23 09:55:14',
     '2020/04/23 09:55:14'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    9,
     'php@labot.inc',
     'php7',
     'php',
@@ -115,9 +196,18 @@ VALUES (
     '2020/04/24 01:01:06',
     '2020/04/24 01:01:06'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    10,
     'javascript@labot.inc',
     'react',
     'js',
@@ -128,9 +218,18 @@ VALUES (
     '2020/04/24 05:03:58',
     '2020/04/24 05:03:58'
   );
-INSERT INTO users
+INSERT INTO users (
+    email,
+    password,
+    user_name,
+    profile,
+    phone_number,
+    cell_number,
+    is_deleted,
+    created_at,
+    modified_at
+  )
 VALUES (
-    11,
     'microsoft@gmail.com',
     'google',
     'amazon',
@@ -140,4 +239,4 @@ VALUES (
     1,
     '2020/04/24 06:00:02',
     '2020/04/26 12:13:43'
-  )
+  );
